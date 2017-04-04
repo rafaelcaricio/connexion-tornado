@@ -19,7 +19,7 @@ paths:
   /:
     get:
       summary: Hello to everyone
-      description: Generates a greeting message.
+      description: ""
       operationId: test.MainHandler#get
       produces:
         - text/plain;
@@ -29,7 +29,7 @@ paths:
           schema:
             type: string
           examples:
-            "text/plain": "Hello John"
+            "text/plain": "Hello Example"
 """)
 app.listen(8888)
 
